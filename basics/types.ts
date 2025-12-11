@@ -29,7 +29,7 @@ if (response2) {
 let response3: null;
 let response4: undefined;
 
-/*--- Combining Types ---*/
+/*--- Types combination ---*/
 
 type ResponseTypeService = number | undefined;
 
