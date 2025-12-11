@@ -10,3 +10,13 @@ var response = "This can be any type";
 response = 42;
 response = true;
 response = ["Mixed", 100, false];
+/* --------- Data types II -------------------- */
+function greet() {
+    console.log('Hello');
+}
+var response2;
+response2 = true;
+if (response2) {
+}
+var response3;
+var response4;
