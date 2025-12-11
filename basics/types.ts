@@ -31,7 +31,7 @@ let response4: undefined;
 
 /*--- Combining Types ---*/
 
-type ResponseTypeService = string | undefined;
+type ResponseTypeService = number | undefined;
 
 let response5: ResponseTypeService;
 response5?.toString();
@@ -39,4 +39,5 @@ response5?.toString();
 let responseProducs: ResponseTypeService;
 let responsePartners: ResponseTypeService;
 
+responsePartners?.toString().concat("");
 
