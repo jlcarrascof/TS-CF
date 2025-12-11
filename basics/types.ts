@@ -31,10 +31,12 @@ let response4: undefined;
 
 /*--- Combining Types ---*/
 
-let response5: string | undefined;
+type ResponseTypeService = string | undefined;
+
+let response5: ResponseTypeService;
 response5?.toString();
 
-let responseProducs: string | undefined;
-let responsePartners: string | undefined;
+let responseProducs: ResponseTypeService;
+let responsePartners: ResponseTypeService;
 
 
