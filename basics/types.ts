@@ -19,3 +19,12 @@ function greet(): void {
     console.log('Hello');
 }
 
+let response2: unknown;
+response2 = true;
+
+if (response2) {
+
+}    
+
+let response3: null;
+let response4: undefined;
