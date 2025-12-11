@@ -28,3 +28,13 @@ if (response2) {
 
 let response3: null;
 let response4: undefined;
+
+/*--- Combining Types ---*/
+
+let response5: string | undefined;
+response5?.toString();
+
+let responseProducs: string | undefined;
+let responsePartners: string | undefined;
+
+
