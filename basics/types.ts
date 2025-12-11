@@ -11,4 +11,11 @@ let fruits: Object[] = [{ name: "Apple" }, { name: "Banana" }];
 let response: any = "This can be any type";
 response = 42;
 response = true;
-response = ["Mixed", 100, false]; 
+response = ["Mixed", 100, false];
+
+/* --------- Data types II -------------------- */
+
+function greet(): void {
+    console.log('Hello');
+}
+
