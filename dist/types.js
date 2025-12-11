@@ -1,0 +1,22 @@
+console.log("Data Types in TypeScript");
+var herAge = 30;
+var userName = "John Doe";
+var isSenior = true;
+var person = { name: "Jane", age: 25 };
+var hobbies = ["Reading", "Traveling", "Swimming"];
+var scores = [95, 85, 76];
+var fruits = [{ name: "Apple" }, { name: "Banana" }];
+var response = "This can be any type";
+response = 42;
+response = true;
+response = ["Mixed", 100, false];
+/* --------- Data types II -------------------- */
+function greet() {
+    console.log('Hello');
+}
+var response2;
+response2 = true;
+if (response2) {
+}
+var response3;
+var response4;
