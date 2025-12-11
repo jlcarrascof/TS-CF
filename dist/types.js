@@ -20,3 +20,8 @@ if (response2) {
 }
 var response3;
 var response4;
+var response5;
+response5 === null || response5 === void 0 ? void 0 : response5.toString();
+var responseProducs;
+var responsePartners;
+responsePartners === null || responsePartners === void 0 ? void 0 : responsePartners.toString().concat("");
