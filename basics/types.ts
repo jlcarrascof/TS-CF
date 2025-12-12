@@ -48,3 +48,9 @@ let message: any = "";
 
 let messageUppercase = (message as string).toUpperCase();
 
+let messageUpper = <string> message;
+messageUpper.toUpperCase();
+
+const canvas = document.getElementById("canvas");
+<HTMLCanvasElement>canvas;
+const canvas2 = document.getElementById("canvas2") as HTMLCanvasElement;
