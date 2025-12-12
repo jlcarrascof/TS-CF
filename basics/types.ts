@@ -28,3 +28,29 @@ if (response2) {
 
 let response3: null;
 let response4: undefined;
+
+/*--- Types combination ---*/
+
+type ResponseTypeService = number | undefined;
+
+let response5: ResponseTypeService;
+response5?.toString();
+
+let responseProducs: ResponseTypeService;
+let responsePartners: ResponseTypeService;
+
+responsePartners?.toString().concat("");
+
+/* --- Type Assertion --- */
+
+let message: any = "";
+(message as string).slice(1);
+
+let messageUppercase = (message as string).toUpperCase();
+
+let messageUpper = <string> message;
+messageUpper.toUpperCase();
+
+const canvas = document.getElementById("canvas");
+<HTMLCanvasElement>canvas;
+const canvas2 = document.getElementById("canvas2") as HTMLCanvasElement;

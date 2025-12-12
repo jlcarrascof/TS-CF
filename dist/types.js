@@ -20,3 +20,17 @@ if (response2) {
 }
 var response3;
 var response4;
+var response5;
+response5 === null || response5 === void 0 ? void 0 : response5.toString();
+var responseProducs;
+var responsePartners;
+responsePartners === null || responsePartners === void 0 ? void 0 : responsePartners.toString().concat("");
+/* --- Type Assertion --- */
+var message = "";
+message.slice(1);
+var messageUppercase = message.toUpperCase();
+var messageUpper = message;
+messageUpper.toUpperCase();
+var canvas = document.getElementById("canvas");
+canvas;
+var canvas2 = document.getElementById("canvas2");
