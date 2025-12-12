@@ -41,3 +41,10 @@ let responsePartners: ResponseTypeService;
 
 responsePartners?.toString().concat("");
 
+/* --- Type Assertion --- */
+
+let message: any = "";
+(message as string).slice(1);
+
+let messageUppercase = (message as string).toUpperCase();
+
