@@ -1,9 +1,9 @@
 var Users;
 (function (Users) {
-    Users[Users["NormalUser"] = 0] = "NormalUser";
-    Users[Users["PayedUser"] = 1] = "PayedUser";
-    Users[Users["AdminUser"] = 2] = "AdminUser";
-    Users[Users["MegaUser"] = 3] = "MegaUser";
+    Users[Users["NormalUser"] = 5] = "NormalUser";
+    Users[Users["PayedUser"] = 7] = "PayedUser";
+    Users[Users["AdminUser"] = 9] = "AdminUser";
+    Users[Users["MegaUser"] = 11] = "MegaUser";
 })(Users || (Users = {}));
 var myUser = Users.AdminUser;
 console.log(myUser);
