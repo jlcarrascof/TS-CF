@@ -2,7 +2,7 @@ interface Person {
     name: string;
     code: string | number;
     charge: number;
-    description: string; 
+    description?: string; 
 }
 
 let person: Person = {
@@ -13,3 +13,11 @@ let person: Person = {
 }
 
 person.code = 50;
+
+let secondPerson: Person = {
+    name: "",
+    code: "",
+    charge: 0,
+};
+
+secondPerson.description?.toUpperCase();
