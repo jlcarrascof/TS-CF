@@ -12,6 +12,8 @@ let person: Person = {
     charge: 1,
     description: "Hello",
     sayHello: () => {
+        // saveToken();
+        // takePhoto();
         return "Hello!";
     }, 
 }
