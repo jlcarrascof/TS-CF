@@ -14,6 +14,9 @@ let person: Person = {
     sayHello: () => {
         // saveToken();
         // takePhoto();
+        console.log("Saying hello...");
+        const people = [1, 2, 3, 4];
+        people.map((p) => p.toFixed(1));
         return "Hello!";
     }, 
 }
