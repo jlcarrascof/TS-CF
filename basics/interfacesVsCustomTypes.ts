@@ -26,3 +26,18 @@ type ServiceResponseToken = string | null | undefined | number;
 type UserTypes = "admin" | "superUser" | 0;
 
 const myUser: UserTypes = 0;
+
+interface Developer {
+    name: string;
+    stack: string[];
+}
+
+interface Developer {
+    phone: string;
+}
+
+const me: Developer = {
+    name: "Javier",
+    stack: ["JavaScript", "TypeScript", "NodeJS"],
+    phone: "555-5555",
+}
