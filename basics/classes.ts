@@ -1,10 +1,14 @@
-class Animal {
-    name: "Generic Animal";
+(() => {
+    class Animal {
+        name: "Generic Animal";
 
-    sayHi() {
-        console.log("Grrr");
+        sayHi() {
+            console.log("Grrr");
+        }
     }
-}
 
-const myAnimal: Animal = new Animal();
-myAnimal.sayHi();
+    const myAnimal: Animal = new Animal();
+    myAnimal.sayHi();    
+
+
+})();
