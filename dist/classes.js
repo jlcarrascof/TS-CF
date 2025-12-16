@@ -17,6 +17,7 @@ var Animal = /** @class */ (function () {
     function Animal() {
         this.name = "Generic Animal";
         this.age = 10;
+        this.identity = 'doggy';
     }
     Animal.prototype.sayHi = function () {
         console.log("Grrr", this.age);
@@ -30,9 +31,13 @@ var Dog = /** @class */ (function (_super) {
         _this.type = "German Sheld";
         return _this;
     }
+    Dog.prototype.sayYo = function () {
+        console.log(this.identity);
+    };
     return Dog;
 }(Animal));
 var myAnimal = new Animal();
 myAnimal.sayHi();
 var myDog = new Dog();
 console.log(myDog.name);
+myDog.sayYo();
