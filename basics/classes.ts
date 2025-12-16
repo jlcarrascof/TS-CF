@@ -2,6 +2,11 @@ class Animal {
     name = "Generic Animal";
     private age = 10;
     protected identity = 'doggy';
+
+    constructor() {
+
+    } 
+
     sayHi() {
         console.log("Grrr", this.age);
     }
@@ -10,6 +15,9 @@ class Animal {
 class Dog extends Animal {
     type = "German Sheld";
 
+    constructor() {
+        super();
+    }
     sayYo() {
         console.log(this.identity);
     }
