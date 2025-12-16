@@ -35,6 +35,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var Animal = /** @class */ (function () {
     function Animal() {
+        this.name = "Generic Animal";
         this.age = 10;
     }
     Animal.prototype.sayHi = function () {
@@ -45,7 +46,9 @@ var Animal = /** @class */ (function () {
 var Dog = /** @class */ (function (_super) {
     __extends(Dog, _super);
     function Dog() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.type = "German Sheld";
+        return _this;
     }
     return Dog;
 }(Animal));
