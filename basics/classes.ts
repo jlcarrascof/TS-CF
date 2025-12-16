@@ -7,7 +7,14 @@
         }
     }
 
+    class Dog extends Animal {
+        type: "German Sheld";
+    }
+
     const myAnimal: Animal = new Animal();
     myAnimal.sayHi();    
+
+    const myDog: Dog = new Dog();
+    console.log(myDog.type);
 
 })();
