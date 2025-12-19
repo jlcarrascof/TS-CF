@@ -9,7 +9,6 @@ interface PersonInterface {
 class PersonClass {
     sayHello() {
         console.log("Grrr");
-        fetch("...");
     }
 }
 
@@ -17,4 +16,13 @@ class PersonClass {
 const personTwo: PersonClass = new PersonClass();
 personTwo.sayHello();
 
+interface PetInterface {
+    sayHello: () => string;
+}
+
+class PetClass {
+    sayHello() {
+        return "Hello";
+    }
+}
 
