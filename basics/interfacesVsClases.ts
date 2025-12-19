@@ -26,3 +26,8 @@ class PetClass {
     }
 }
 
+class Doggy implements PetInterface {
+    sayHello() {
+        return "Hello from Doggy class";
+    }
+}
