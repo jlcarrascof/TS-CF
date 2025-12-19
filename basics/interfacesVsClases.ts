@@ -31,3 +31,5 @@ class Doggy implements PetInterface {
         return "Hello from Doggy class";
     }
 }
+
+class Cat extends PetClass {}
