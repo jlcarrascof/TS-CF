@@ -1,4 +1,4 @@
-interface Person {
+interface PersonInterface {
     name: string;
     code: string | number;
     charge: number;
@@ -12,4 +12,9 @@ class PersonClass {
         fetch("...");
     }
 }
+
+// const personOne: PersonInterface = {}
+const personTwo: PersonClass = new PersonClass();
+personTwo.sayHello();
+
 
