@@ -5,3 +5,11 @@ interface Person {
     description?: string;
     sayHello: () => string; 
 }
+
+class PersonClass {
+    sayHello() {
+        console.log("Grrr");
+        fetch("...");
+    }
+}
+
