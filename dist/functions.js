@@ -6,3 +6,8 @@ function sayGoodbye(name) {
     console.log("Goodbye, ".concat(name, "!!. We almost finish the module"));
 }
 sayGoodbye('Students');
+function show() {
+    console.log('Hi');
+    return 1;
+}
+show();
