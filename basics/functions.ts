@@ -9,3 +9,10 @@ function sayGoodbye(name) {
 }
 
 sayGoodbye('Students');
+
+function show(): number {
+    console.log('Hi');
+    return 1;
+}
+
+show();
