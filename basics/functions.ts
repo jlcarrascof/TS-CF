@@ -1,10 +1,12 @@
-const sayHi = (name) => {
+(() => {
+
+const sayHi = (name: string) => {
     console.log(`Hi ${name}`);
 };
 
 sayHi('CodigoFacilito students');
 
-function sayGoodbye(name) {
+function sayGoodbye(name: string) {
     console.log(`Goodbye, ${name}!!. We almost finish the module`);
 }
 
@@ -37,4 +39,6 @@ function myResponse({name, ...other}: responseServiceCD): number {
     return 1;
 }
 
-myResponse(response);
+myResponse(response);    
+
+})();

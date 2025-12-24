@@ -9,29 +9,31 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
-var sayHi = function (name) {
-    console.log("Hi ".concat(name));
-};
-sayHi('CodigoFacilito students');
-function sayGoodbye(name) {
-    console.log("Goodbye, ".concat(name, "!!. We almost finish the module"));
-}
-sayGoodbye('Students');
-function show() {
-    console.log('Hi');
-    return 1;
-}
-show();
-var response = {
-    id: 1,
-    name: 'Codigo Facilito',
-    charge: 'Developer',
-    number: 4,
-};
-function myResponse(_a) {
-    var name = _a.name, other = __rest(_a, ["name"]);
-    console.log('The name sent is: ', name);
-    console.log('The other fields are: ', other);
-    return 1;
-}
-myResponse(response);
+(function () {
+    var sayHi = function (name) {
+        console.log("Hi ".concat(name));
+    };
+    sayHi('CodigoFacilito students');
+    function sayGoodbye(name) {
+        console.log("Goodbye, ".concat(name, "!!. We almost finish the module"));
+    }
+    sayGoodbye('Students');
+    function show() {
+        console.log('Hi');
+        return 1;
+    }
+    show();
+    var response = {
+        id: 1,
+        name: 'Codigo Facilito',
+        charge: 'Developer',
+        number: 4,
+    };
+    function myResponse(_a) {
+        var name = _a.name, other = __rest(_a, ["name"]);
+        console.log('The name sent is: ', name);
+        console.log('The other fields are: ', other);
+        return 1;
+    }
+    myResponse(response);
+})();
