@@ -24,15 +24,16 @@ interface responseServiceCD {
     number: number,
 }
 
-const response = {
+const response: responseServiceCD = {
     id: 1,
     name: 'Codigo Facilito',
     charge: 'Developer',
     number: 4,
 }
 
-function myResponse({name, ...other}: {id; name; charge; number}): number {
-    console.log('The id sent is: ', name);
+function myResponse({name, ...other}: responseServiceCD): number {
+    console.log('The name sent is: ', name);
+    console.log('The other fields are: ', other);
     return 1;
 }
 
