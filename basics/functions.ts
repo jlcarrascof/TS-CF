@@ -17,6 +17,13 @@ function show(): number {
 
 show();
 
+interface responseServiceCD {
+    id: number,
+    name: string,
+    charge: string,
+    number: number,
+}
+
 const response = {
     id: 1,
     name: 'Codigo Facilito',
