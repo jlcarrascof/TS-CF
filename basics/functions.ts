@@ -25,7 +25,7 @@ const response = {
 }
 
 function myResponse({name, ...other}: {id; name; charge; number}): number {
-    console.log('The sent id is: ', name);
+    console.log('The id sent is: ', name);
     return 1;
 }
 
