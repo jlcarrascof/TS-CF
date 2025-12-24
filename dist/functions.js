@@ -30,7 +30,7 @@ var response = {
 };
 function myResponse(_a) {
     var name = _a.name, other = __rest(_a, ["name"]);
-    console.log('The sent id is: ', name);
+    console.log('The id sent is: ', name);
     return 1;
 }
 myResponse(response);
