@@ -16,3 +16,17 @@ function show(): number {
 }
 
 show();
+
+const response = {
+    id: 1,
+    name: 'Codigo Facilito',
+    charge: 'Developer',
+    number: 4,
+}
+
+function myResponse({name, ...other}: {id; name; charge; number}): number {
+    console.log('The sent id is: ', name);
+    return 1;
+}
+
+myResponse(response);
