@@ -10,3 +10,6 @@ var DatabaseEntity;
     var myUser = new User("Kevin");
     // console.log(myUser);
 })(DatabaseEntity || (DatabaseEntity = {}));
+/// <reference path="namespaces.ts" />
+var myOtherUser = new DatabaseEntity.User("Kevin 2");
+console.log(myOtherUser);
