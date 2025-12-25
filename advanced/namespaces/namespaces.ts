@@ -6,6 +6,3 @@ namespace DatabaseEntity {
     const myUser = new User("Kevin");
     // console.log(myUser);
 }       
-
-const myOtherUser = new DatabaseEntity.User("Kevin 2");
-console.log(myOtherUser);
