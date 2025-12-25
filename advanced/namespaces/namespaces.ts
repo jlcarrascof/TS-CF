@@ -1,8 +1,10 @@
 namespace DatabaseEntity {
-    class User {
+    export class User {
         constructor(public name: string) {}
     }
 
     const myUser = new User("Kevin");
     console.log(myUser);
 }       
+
+const myOtherUser = new DatabaseEntity.User("Kevin 2");
